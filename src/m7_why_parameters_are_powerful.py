@@ -2,8 +2,8 @@
 This module lets you experience the POWER of FUNCTIONS and PARAMETERS.
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         their colleagues and Ruien Ni.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import rosegraphics as rg
 
@@ -92,6 +92,18 @@ def draw_circles():
 #   run_test_draw_circles  may get you started more quickly on your new
 #   better_draw_circles  and  run_test_better_draw_circles.
 # ----------------------------------------------------------------------
+
+def run_test_better_draw_circles():
+    print()
+    print('--------------------------------------------------')
+    print('Testing better_draw_circles:  See graphics window')
+    print('--------------------------------------------------')
+
+    better_draw_circles()
+
+def better_draw_circles():
+    
+
 
 
 # ----------------------------------------------------------------------
